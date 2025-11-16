@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*area geral de edição*/
 *{
     margin: 0;
     padding: 0;
@@ -19,7 +21,7 @@ body{
     flex-direction: column;
     overflow-x: hidden;
 }
-
+/*area de cores*/
 :root{
     --cor-primaria: #E84676;
     --cor-secundaria: #5F2335;
@@ -31,6 +33,7 @@ main{
     margin: auto;
     max-width: 1700px;
 }
+/*area header*/
 #topo{
     position: relative;
     background-color: var(--cor-primaria);
@@ -126,7 +129,7 @@ header{
     cursor: pointer;
     display: none;
 }
-
+/*area header escondida só aparece quando a tela ficar em 999px*/
 #Mobile-menu section {
     width: 32px;
     height: 2px;
@@ -164,6 +167,8 @@ menu{
     overflow: hidden;
     top: 50px;
 }
+
+/*area carrossel*/
 .carrossel{
     width: 85vw;
     max-width: 1770px;
@@ -189,6 +194,7 @@ menu{
     max-height: 937.500px;
     object-fit: cover;
 }
+/*botão para passar para os lados*/
 .botaos{
     position: absolute;
     top: 45%;
@@ -209,6 +215,7 @@ menu{
     font-weight: bold;
     cursor: pointer;
 }
+/*botoes inferiores*/
 .dots{
     position: absolute;
     bottom: 10px;
@@ -231,6 +238,7 @@ menu{
     transition: 0.5s;
     width: 40px;
 }
+/*area de modalidades*/
 #modalidades{
     display: flex;
     flex-direction: column;
@@ -239,7 +247,6 @@ menu{
     padding-bottom: 20px;
     height: auto;
     align-items: center;
-    background-color: aqua;
 }
  #tituloModalidades{
     margin: auto;
@@ -348,6 +355,7 @@ menu{
     background-color: var(--cor-secundaria);
     border-radius: 25px;
 }
+/*area sobre nós*/
 #containerDona{
     width: 100%;
     max-width: 400px;
@@ -377,6 +385,7 @@ menu{
     color: #fff;
     text-align: justify;
 }
+/*area informações finais*/
 #container {
     display: flex;
     justify-content: center; 
@@ -466,6 +475,7 @@ menu{
     color: #E84676;
     font-size: 18px;
 }
+/*area footer*/
 footer {
     background-color: var(--cor-secundaria);
     color: white;
@@ -495,6 +505,8 @@ footer a:hover {
     text-decoration: underline;
     color: #ff5c8a; 
 }
+
+/*area responsiva quando a tela fica menos de 999px*/
 @media (max-width: 999px){
     .dots li{
     width: 5px;
@@ -554,12 +566,14 @@ footer a:hover {
         opacity: 1;
     }
 }
+/*area responsiva quando a tela fica fica menos de 500px*/
 @media (max-width: 500px){
     .nav-list{
         width: 80vw;
         margin: 0;
     }
 }
+/*are de animação botão whatsapp*/
 @keyframes navLinkFade{
     from{
         opacity: 0;
