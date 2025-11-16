@@ -1,3 +1,4 @@
+
 /*funcionalidade da barra de navegação para dispositivos mobile*/
 class MobileNavbar{
     constructor(mobileMenu, navList, navLinks){
@@ -38,12 +39,3 @@ const mobileNavbar = new MobileNavbar(
     ".nav-list li",
 )
 mobileNavbar.init();
-
-
-
-document.querySelectorAll("p.hora").forEach(p => {
-    p.style.cursor = "pointer"; // só para indicar que é clicável
-    p.addEventListener("click", () => {
-        window.location.href = "../html/horarios.html"; 
-    });
-});
