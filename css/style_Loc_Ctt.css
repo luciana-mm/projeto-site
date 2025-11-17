@@ -7,7 +7,7 @@
 }
 ::selection{
     background-color: #f5a4bb;
-    color: white;
+    color: var(--cor-terciaria);
 }
 html ,body{
     overflow-x: hidden;
@@ -23,7 +23,7 @@ body{
 :root{
     --cor-primaria: #E84676;
     --cor-secundaria: #5F2335;
-    --cor-terciaria: white;
+    --cor-terciaria: #ffffff;
     --cor-quartenária: #e8467761;
 }
 main{
@@ -128,7 +128,7 @@ header{
 #Mobile-menu section {
     width: 32px;
     height: 2px;
-    background-color: white;
+    background-color: var(--cor-terciaria);
     margin: 6px 0;
     border-radius: 2px;
     transition: all 0.3s ease;
@@ -174,15 +174,15 @@ menu{
     gap: 100px;
 }
 #contato h1{
-    background-color: #E84676;
+    background-color: var(--cor-primaria);
     width: 290px;
     text-align: center;
     font-size: 40px;
-    color: #ffffff;
+    color: var(--cor-terciaria);
     border-radius: 10px 10px 0 0 ;
 }
 #contato p{
-    border: 2px solid #E84676;
+    border: 2px solid var(--cor-primaria);
     font-size: 20px;
     margin-bottom: 20px;
     padding: 20px 20px 20px 5px;;
@@ -194,7 +194,7 @@ menu{
 }
 #meioDeContato li a{
     font-size: 25px;
-    color: #5F2335;
+    color: var(--cor-secundaria);
 }
 #whats:hover{
     transition: 0.2s;
@@ -207,11 +207,11 @@ menu{
     color: rgb(172, 47, 99);
 }
 #localização h1{
-    background-color: #E84676;
+    background-color: var(--cor-primaria);
     width: 290px;
     text-align: center;
     font-size: 40px;
-    color: #ffffff;
+    color:  var(--cor-terciaria);
     border-radius: 10px 10px 0 0 ;
 }
 fieldset{
@@ -227,7 +227,7 @@ footer {
     display: flex;
     flex-direction: column;
     background-color: var(--cor-secundaria);
-    color: white;
+    color: var(--cor-terciaria);
     text-align: center;
     padding: 30px 10px;
     font-family: sans-serif;
@@ -236,7 +236,7 @@ footer {
 
 
 footer h2 {
-    color: #E84676;
+    color: var(--cor-primaria);
     margin-bottom: 10px;
     font-size: 20px;
 }
@@ -245,14 +245,14 @@ footer p {
     margin: 5px 0;
 }
 footer a {
-    color: #E84676;
+    color: var(--cor-primaria);
     text-decoration: none;
     margin: 0 8px;
     transition: 0.3s;
 }
 footer a:hover {
     text-decoration: underline;
-    color: #ff5c8a; 
+    color: var(--cor-primaria); 
 }
 @media (max-width: 999px){
     .nav-list{
@@ -261,7 +261,7 @@ footer a:hover {
         right: 0;
         width: 55vw;
         height: 55vh;
-        background-color: #5F2335;
+        background-color: var(--cor-secundaria);
         z-index: 10;
         flex-direction: column;
         align-items: center;
