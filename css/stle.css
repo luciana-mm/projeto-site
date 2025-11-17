@@ -8,8 +8,8 @@
     box-sizing: border-box;
 }
 ::selection{
-    background-color: var(--cor-quartenária);
-    color: white;
+    background-color: #f5a4bb;
+    color: var(--cor-terciaria);
 }
 html ,body{
     overflow-x: hidden;
@@ -25,7 +25,7 @@ body{
 :root{
     --cor-primaria: #E84676;
     --cor-secundaria: #5F2335;
-    --cor-terciaria: white;
+    --cor-terciaria: #ffffff;
     --cor-quartenária: #e8467761;
 }
 main{
@@ -133,7 +133,7 @@ header{
 #Mobile-menu section {
     width: 32px;
     height: 2px;
-    background-color: white;
+    background-color: var(--cor-terciaria);;
     margin: 6px 0;
     border-radius: 2px;
     transition: all 0.3s ease;
@@ -209,7 +209,7 @@ menu{
     height: 60px;
     border-radius: 50%;
     background-color: #fff5;
-    color: #fff;
+    color: var(--cor-terciaria);
     border: none;
     font-family: monospace;
     font-weight: bold;
@@ -219,7 +219,7 @@ menu{
 .dots{
     position: absolute;
     bottom: 10px;
-    color: #fff;
+    color: var(--cor-terciaria);
     width: 100%;
     margin: 0;
     padding: 0;
@@ -230,7 +230,7 @@ menu{
     list-style: none;
     width: 10px;
     height: 10px;
-    background-color: #fff;
+    background-color: var(--cor-terciaria);
     margin: 10px 0px;
     border-radius: 10px;
 }
@@ -251,9 +251,9 @@ menu{
  #tituloModalidades{
     margin: auto;
     text-align: center;
-    color: #5F2335;
+    color:var(--cor-secundaria);
     font-weight: normal;
-    background-color: #E84676;
+    background-color: var(--cor-primaria);
     padding: 15px;
     width: 250px;
     margin-bottom: 50px;
@@ -331,19 +331,19 @@ menu{
     display: block;
     padding: 5px;
     width: 160px;
-    background-color: #E84676 ;
+    background-color:  var(--cor-primaria) ;
     border: none;
     margin: 40px auto 20px auto;
     box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.11);
     font-weight: bold;
-    color: #5F2335;
+    color: var(--cor-secundaria);
     transition: 0.8s;
     cursor: pointer;
 }
 .paginaModalidades:hover{
     border-radius: 10px;
     transition: 0.5s;
-    color: white;
+    color: var(--cor-terciaria);;
     transform: translateY(-10px); 
 }
 #SobreNos{
@@ -379,10 +379,10 @@ menu{
     font-weight: bolder;
     font-size: 30px;
     padding-bottom: 10px;
-    color: #fff;
+    color: var(--cor-terciaria);
 }
 #InformacaoSN p{
-    color: #fff;
+    color: var(--cor-terciaria);
     text-align: justify;
 }
 /*area informações finais*/
@@ -402,13 +402,13 @@ menu{
     justify-content: center;
 }
 #BoraConhecer h1 {
-    color: #5F2335;
+    color:var(--cor-secundaria);
     margin-bottom: 15px;
     font-size: 30px;
     line-height: 1.3;
 }
 #BoraConhecer p {
-    color: #E84676;
+    color:  var(--cor-primaria);
     font-size: 18px;
     line-height: 1.6;
 }
@@ -416,8 +416,8 @@ menu{
     margin: auto;
     padding: 10px;
     text-align: center;
-    background-color: #E84676;
-    color: #5F2335;
+    background-color:  var(--cor-primaria);
+    color:var(--cor-secundaria);
     text-decoration: none;
     width: 300px;
     font-size: 20px;
@@ -455,7 +455,7 @@ menu{
 
 .button:hover {
     border-radius: 10px;
-    color: white
+    color: var(--cor-terciaria);
 }
 
 #horarios {
@@ -467,18 +467,18 @@ menu{
     padding: 30px;
 }
 #horarios h1 {
-    color: #5F2335;
+    color: var(--cor-secundaria);
     margin-bottom: 10px;
     font-size: 26px;
 }
 #horarios p {
-    color: #E84676;
+    color: var(--cor-primaria);
     font-size: 18px;
 }
 /*area footer*/
 footer {
     background-color: var(--cor-secundaria);
-    color: white;
+    color:var(--cor-terciaria);;
     text-align: center;
     padding: 30px 10px;
     font-family: sans-serif;
@@ -487,7 +487,7 @@ footer {
 
 
 footer h2 {
-    color: #E84676;
+    color:  var(--cor-primaria);
     margin-bottom: 10px;
     font-size: 20px;
 }
@@ -496,14 +496,14 @@ footer p {
     margin: 5px 0;
 }
 footer a {
-    color: #E84676;
+    color: var(--cor-primaria);
     text-decoration: none;
     margin: 0 8px;
     transition: 0.3s;
 }
 footer a:hover {
     text-decoration: underline;
-    color: #ff5c8a; 
+    color:  var(--cor-primaria); 
 }
 
 /*area responsiva quando a tela fica menos de 999px*/
@@ -536,7 +536,7 @@ footer a:hover {
         right: 0;
         width: 55vw;
         height: 55vh;
-        background-color: #5F2335;
+        background-color:var(--cor-secundaria);
         z-index: 10;
         flex-direction: column;
         align-items: center;

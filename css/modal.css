@@ -20,8 +20,9 @@ body{
 :root{
     --cor-primaria: #E84676;
     --cor-secundaria: #5F2335;
-    --cor-terciaria: white;
+    --cor-terciaria: #ffffff;
     --cor-quartenária: #e8467761;
+    --cor-quinária: #a80035;
 }
 #topo{
     position: relative;
@@ -159,7 +160,7 @@ menu{
 
 main 
 {
-    background-color: #fff;   
+    background-color: var(--cor-terciaria);   
     padding:  40px 20px;/* dá espaço interno */         
     border-radius: 10px;
     width: 85%;
@@ -175,11 +176,11 @@ img{
     width: 100%;
 }
 ::selection{
-    background-color: var(--cor-quartenária);
-    color: white;
+    background-color: #f5a4bb;
+    color:var(--cor-terciaria);
 }
 h1{
-    color: #a80035;
+    color: var(--cor-quinária);
     background-color: #e58aa5e4;
     border: 100px;
     border-radius: 100px;
@@ -189,12 +190,12 @@ h1{
     text-align: justify;
 }
 .valor{
-    color: #a80035;
+    color:var(--cor-quinária);
     border-radius: 100px;
     text-align: left
 }
 .hora{
-    color: #a80035;
+    color: var(--cor-quinária);
     border-radius: 100px;
     text-align: center;
     border-radius: 900px;
@@ -217,64 +218,60 @@ h1{
 #infantil {
     text-align: center;
     border-width: 900px;
-    border-bottom: #E84676;
     background-color: hsl(342, 73%, 47%);
     font-size: small;
     font-family: 'Courier New', Courier, monospace;
-    border: #E84676;
+    border:var(--cor-primaria);
     border-width: 5px;
     border-style: double;
-    background-color: #fff;   
+    background-color:var(--cor-terciaria);   
     padding:  40px 30px;         /* dá espaço interno */
     margin-top: 50px;
     
 }
 #misto{
-        text-align: center;
+    text-align: center;
     border-width: 900px;
-    border-bottom: #E84676;
     background-color: hsl(342, 73%, 47%);
     font-size: small;
     font-family: 'Courier New', Courier, monospace;
-    border: #E84676;
+    border: var(--cor-primaria);
     border-width: 5px;
     border-style: double;
-     background-color: #fff;   
+    background-color:var(--cor-terciaria);   
     padding:  40px 20px;         /* dá espaço interno */
     margin-top: 50px;
 }
 #comtemporaneo{
-      text-align: center;
+    text-align: center;
     border-width: 900px;
-    border-bottom: #E84676;
     background-color: (129, 73%, 47%);
     font-size: small;
     font-family: 'Courier New', Courier, monospace;
-    border: #E84676;
+    border: var(--cor-primaria);
     border-width: 5px;
     border-style: double;
-     background-color: #fff;   
+    background-color: var(--cor-terciaria);   
     padding:  40px 20px;         /* dá espaço interno */
     margin-top: 50px;
 }
 #ginasticaritmica{
     text-align: center;
     border-width: 900px;
-    border-bottom: #E84676;
     background-color: hsl(342, 73%, 47%);
     font-size: small;
     font-family: 'Courier New', Courier, monospace;
-    border: #E84676;
+    border:var(--cor-primaria);
     border-width: 5px;
     border-style: double;
-     background-color: #fff;   
+     background-color: var(--cor-terciaria);   
     padding:  40px 20px;         /* dá espaço interno */
     margin-top: 50px;
 }
 
 footer {
     background-color: var(--cor-secundaria);
-    color: white;
+    color: var(--cor-terciaria);
     text-align: center;
     padding: 30px 10px;
     font-family: sans-serif;
@@ -283,7 +280,7 @@ footer {
 
 
 footer h2 {
-    color: #E84676;
+    color:var(--cor-primaria);
     margin-bottom: 10px;
     font-size: 20px;
 }
@@ -292,14 +289,14 @@ footer p {
     margin: 5px 0;
 }
 footer a {
-    color: #E84676;
+    color:var(--cor-primaria);
     text-decoration: none;
     margin: 0 8px;
     transition: 0.3s;
 }
 footer a:hover {
     text-decoration: underline;
-    color: #ff5c8a; 
+    color: var(--cor-primaria); 
 }
 
 @media (max-width: 999px){
@@ -331,7 +328,7 @@ footer a:hover {
         right: 0;
         width: 55vw;
         height: 55vh;
-        background-color: #5F2335;
+        background-color:var(--cor-secundaria);
         z-index: 10;
         flex-direction: column;
         align-items: center;

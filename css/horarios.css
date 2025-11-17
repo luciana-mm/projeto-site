@@ -7,8 +7,8 @@
   --fonte: "Poppins", Arial, sans-serif;
 }
 ::selection{
-    background-color: var(--cor-quartenária);
-    color: white;
+    background-color: #f5a4bb;
+    color:var(--cor-terciaria)var(--cor-secundaria);
 }
 *,*::before,*::after{
   box-sizing:border-box;
@@ -119,7 +119,7 @@ header{
 #Mobile-menu section {
     width: 32px;
     height: 2px;
-    background-color: white;
+    background-color:var(--cor-terciaria);
     margin: 6px 0;
     border-radius: 2px;
     transition: all 0.3s ease;
@@ -208,7 +208,7 @@ html,body{
 .modalidade{
   flex:1 1 0;
   min-width:170px;
-  background:#ffffff !important; /* BRANCO */
+  background:var(--cor-terciaria) !important; /* BRANCO */
   display:flex;
   flex-direction:column;
   align-items:center;
@@ -260,7 +260,7 @@ html,body{
 /* BLOCO DE HORÁRIO — AJUSTADO */
 .horario{
   width:100%;
-  background:#ffffff;            /* COR BRANCA */
+  background:var(--cor-terciaria);            /* COR BRANCA */
   border-radius:8px;
   padding:12px;
   text-align:center;
@@ -285,7 +285,7 @@ html,body{
 
 footer {
     background-color: var(--cor-secundaria);
-    color: white;
+    color:var(--cor-terciaria);
     text-align: center;
     padding: 30px 10px;
     font-family: sans-serif;
@@ -294,7 +294,7 @@ footer {
 
 
 footer h2 {
-    color: #E84676;
+    color: var(--cor-primaria);
     margin-bottom: 10px;
     font-size: 20px;
 }
@@ -303,14 +303,14 @@ footer p {
     margin: 5px 0;
 }
 footer a {
-    color: #E84676;
+    color: var(--cor-primaria);
     text-decoration: none;
     margin: 0 8px;
     transition: 0.3s;
 }
 footer a:hover {
     text-decoration: underline;
-    color: #ff5c8a; 
+    color: var(--cor-primaria); 
 }
 @media (max-width: 999px){
     .nav-list{
@@ -319,7 +319,7 @@ footer a:hover {
         right: 0;
         width: 55vw;
         height: 55vh;
-        background-color: #5F2335;
+        background-color:var(--cor-secundaria);
         z-index: 10;
         flex-direction: column;
         align-items: center;
