@@ -178,16 +178,16 @@ document.addEventListener("DOMContentLoaded", () => {
         botao.addEventListener("click", () => {
 
             if (index === 0) {
-                window.open("../html/modal.html#misto", "_self"); // 1º = misto
+                window.open("html/modal.html#misto", "_self"); // 1º = misto
             }
             if (index === 1) {
-                window.open("../html/modal.html#infantil", "_self"); // 2º = kids
+                window.open("html/modal.html#infantil", "_self"); // 2º = kids
             }
             if (index === 2) {
-                window.open("../html/modal.html#comtemporaneo", "_self"); // 3º = contemporâneo (mesmo id que você usou antes)
+                window.open("html/modal.html#comtemporaneo", "_self"); // 3º = contemporâneo (mesmo id que você usou antes)
             }
             if (index === 3) {
-                window.open("../html/modal.html#ginasticaritmica", "_self"); // 4º = rítmica
+                window.open("html/modal.html#ginasticaritmica", "_self"); // 4º = rítmica
             }
 
         });

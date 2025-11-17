@@ -206,7 +206,7 @@ menu{
     font-weight: bold;
     color: rgb(172, 47, 99);
 }
-#localização h1{
+#localizacao h1{
     background-color: var(--cor-primaria);
     width: 290px;
     text-align: center;
@@ -310,7 +310,7 @@ footer a:hover {
     width: 200px;
     font-size: 30px;
 }
-    #localização h1{
+    #localizacao h1{
     margin: auto;
     text-align: center;
     font-size: 30px;
