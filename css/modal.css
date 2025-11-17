@@ -372,6 +372,11 @@ footer a:hover {
     }
 }
 
+@media (max-width: 500px){
+    #misto h1{
+        padding: 15px;
+    }
+}
 /*nav bar responsiva*/
 @keyframes navLinkFade{
     from{
